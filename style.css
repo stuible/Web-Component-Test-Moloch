@@ -1,0 +1,11 @@
+body {
+    font-family: 'futura', sans-serif;
+}
+
+/* Custom Style that effects web component */
+moloch-phrase {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
