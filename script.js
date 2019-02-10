@@ -3,11 +3,12 @@ customElements.define(
     class extends HTMLElement {
         constructor() {
             super();
+            
         }
 
         connectedCallback() {
-            this.innerHTML =
-                "Moloch, Moloch, Nightmare of Moloch";
+            const template = document.getElementById('moloch-phrase-template');
+            this.innerHTML = template.innerHTML;
         }
     }
 );
